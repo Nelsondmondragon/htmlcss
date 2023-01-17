@@ -1,0 +1,35 @@
+.space-between,
+.space-evenly,
+.space-around {
+    display: grid;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    grid-template: repeat(3, 150px) / repeat(3, 150px);
+    gap: 10px 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.space-around {
+    justify-content: space-around;
+    background: aqua;
+}
+
+
+.space-between {
+    justify-content: space-between;
+    background: pink;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+    background: purple;
+}
+
+.container1 {
+    background: rgb(72, 131, 72);
+    width: 100px;
+    height: 100px;
+
+}
